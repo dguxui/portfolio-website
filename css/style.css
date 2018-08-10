@@ -373,3 +373,27 @@ a:hover {
   color: #444444;
   text-decoration: none; /* No underlining when hovering over a link */
 }
+
+a:active {
+  /* selected link */
+  color: ##000000;
+}
+button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: inherit; /* takes the font from the outer container */
+
+  /* style button */
+  background-color: #05676e;
+  color: white !important;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #03474c; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+button:hover,
+button:focus {
+  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
+  opacity: 0.8; /* Reduces the opactiy of the button to 80% */
+}
