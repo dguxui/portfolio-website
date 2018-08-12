@@ -407,6 +407,7 @@ button:focus {
 }
 .columns-container {
   font-size: 0;
+  white-space: nowrap;
 }
 .column-4 {
   font-size: 16px;
