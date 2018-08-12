@@ -355,7 +355,10 @@ body {  font-family: 'Montserrat', sans-serif;
 font-size: 16px; /* Sets the font size to 16px */
 line-height: 1.6; /* Sets the line-height to 1.6 */}
 
-h1 {font-size: 30px;}
+h1 {
+  font-size: 30px;
+  text-align: center; /* Centers text */
+}
 
 h2 {font-size: 24px;}
 
@@ -414,6 +417,7 @@ button:focus {
   width: 24%;
   display: inline-block;
   margin-right: 1%;
+  text-align: center; /* Centers text */
 }
 .column-4:last-child {
 margin-right: 0;
@@ -426,4 +430,7 @@ margin-right: 0;
 .navigation > li {
   display: inline-block;
   margin-left: 10px;
+}
+@media all and (max-width: 500px) {
+
 }
