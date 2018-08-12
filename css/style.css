@@ -397,3 +397,10 @@ button:focus {
   cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
   opacity: 0.8; /* Reduces the opactiy of the button to 80% */
 }
+
+/* Layout styling */
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+}
