@@ -420,7 +420,7 @@ button:focus {
   text-align: center; /* Centers text */
 }
 .column-4:last-child {
-margin-right: 0;
+  margin-right: 0;
 }
 .navigation {
   list-style-type: none;
@@ -449,5 +449,5 @@ margin-right: 0;
   }
 }
 .column-4:nth-child(2) {
-margin-right: 0;
+  margin-right: 0;
 }
