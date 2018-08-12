@@ -418,3 +418,12 @@ button:focus {
 .column-4:last-child {
 margin-right: 0;
 }
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+}
+.navigation > li {
+  display: inline-block;
+  margin-left: 10px;
+}
